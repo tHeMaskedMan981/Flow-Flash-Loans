@@ -1,0 +1,122 @@
+{
+  "contracts": {
+    "BasicToken1": "./cadence/contracts/BasicToken1.cdc",
+    "BasicToken2": "./cadence/contracts/BasicToken2.cdc",
+    "ExampleNFT": {
+      "source": "",
+      "aliases": {
+        "emulator": "f8d6e0586b0a20c7"
+      }
+    },
+    "FUSD": {
+      "source": "",
+      "aliases": {
+        "emulator": "f8d6e0586b0a20c7"
+      }
+    },
+    "FlowToken": {
+      "source": "./cadence/contracts/FlowToken.cdc",
+      "aliases": {
+        "emulator": "0ae53cb6e3f42a79"
+      }
+    },
+    "FungibleToken": {
+      "source": "./cadence/contracts/FungibleToken.cdc",
+      "aliases": {
+        "emulator": "ee82856bf20e2aa6"
+      }
+    },
+    "MetadataViews": {
+      "source": "",
+      "aliases": {
+        "emulator": "f8d6e0586b0a20c7"
+      }
+    },
+    "NFTStorefront": {
+      "source": "",
+      "aliases": {
+        "emulator": "f8d6e0586b0a20c7"
+      }
+    },
+    "NFTStorefrontV2": {
+      "source": "",
+      "aliases": {
+        "emulator": "f8d6e0586b0a20c7"
+      }
+    },
+    "NonFungibleToken": {
+      "source": "",
+      "aliases": {
+        "emulator": "f8d6e0586b0a20c7"
+      }
+    },
+    "SwapConfig": {
+      "source": "./cadence/contracts/SwapConfig.cdc",
+      "aliases": {
+        "emulator": "e03daebed8ca0615"
+      }
+    },
+    "SwapError": {
+      "source": "./cadence/contracts/SwapError.cdc",
+      "aliases": {
+        "emulator": "e03daebed8ca0615"
+      }
+    },
+    "SwapFactory": {
+      "source": "./cadence/contracts/SwapFactory.cdc",
+      "aliases": {
+        "emulator": "e03daebed8ca0615"
+      }
+    },
+    "SwapInterfaces": {
+      "source": "./cadence/contracts/SwapInterfaces.cdc",
+      "aliases": {
+        "emulator": "e03daebed8ca0615"
+      }
+    },
+    "SwapPair": {
+      "source": "./cadence/contracts/SwapPair.cdc",
+      "aliases": {
+        "emulator": "e03daebed8ca0615"
+      }
+    },
+    "SwapRouter": {
+      "source": "./cadence/contracts/SwapRouter.cdc",
+      "aliases": {
+        "emulator": "e03daebed8ca0615"
+      }
+    }
+  },
+  "networks": {
+    "emulator": "127.0.0.1:3569",
+    "mainnet": "access.mainnet.nodes.onflow.org:9000",
+    "testnet": "access.devnet.nodes.onflow.org:9000"
+  },
+  "accounts": {
+    "emulator-account": {
+      "address": "f8d6e0586b0a20c7",
+      "key": "6d12eebfef9866c9b6fa92b97c6e705c26a1785b1e7944da701fc545a51d4673"
+    },
+    "user1": {
+      "address": "e03daebed8ca0615",
+      "key": "12171f449d37831bb3b7b6ccb13d1ff368781e15983d25ec10fd43895ddd4cd9"
+    },
+    "user2": {
+      "address": "045a1763c93006ca",
+      "key": "1dfe229c6ef216785b73631c1b0fc9269f47fe0f7d3a02aa54a8de652e3b0af0"
+    }
+  },
+  "deployments": {
+    "emulator": {
+      "user1": [
+        "SwapConfig",
+        "SwapError",
+        "SwapInterfaces",
+        "SwapRouter",
+        "SwapFactory",
+        "BasicToken1",
+        "BasicToken2"
+      ]
+    }
+  }
+}
